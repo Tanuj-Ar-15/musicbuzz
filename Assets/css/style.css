@@ -1,0 +1,496 @@
+/* --------------- GOOGLE FONT LINK----------- */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comme:wght@300&family=Kanit&family=Poppins:wght@300&family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* -------topbar-----------  */
+
+.topbar .nav-item:nth-child(1) a {
+    text-transform: capitalize;
+    color: #00000090;
+    font-weight: 700;
+}
+
+.topbar .nav-item:nth-child(2) a {
+    text-transform: capitalize;
+    color: black;
+
+}
+
+.topbar .nav-item:nth-child(3) a {
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+}
+
+/* -------topbar-----------  */
+
+/* --------------- SECTION 1 STARTS------------------------- */
+.section1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://p.w3layouts.com/demos_new/template_demo/11-11-2022/musical-liberty-demo_Free/1061998195/web/assets/images/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.darkenimage {
+    height: inherit;
+    width: inherit;
+    background-color: #00000099;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+.navbar-nav .nav-item {
+    padding: 0px 8px 0px 8px;
+}
+
+.navbar-nav .nav-item a {
+    font-weight: 600;
+    color: white;
+}
+
+.navbar {
+    padding: 15px 0px 15px 0px;
+    background-color: black;
+    /* position: fixed; */
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link:hover {
+    color: #f50537;
+}
+
+.outlook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 220px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.searchbar input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
+    height: 40px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.searchbar a {
+    height: 40px;
+    width: 35px;
+    background-color: #f50537;
+    /* border-radius: 15px; */
+    padding: 10px;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: -5px;
+    overflow: hidden;
+}
+
+.searchbar a i {
+    color: white;
+}
+
+.sec1maintext {
+    margin-top: 150px;
+}
+
+.sec1maintext h6 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sec1maintext h1 {
+    font-size: 60px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Londrina Outline', cursive;
+    margin-bottom: 50px;
+}
+
+.learnmore {
+    height: 45px;
+    width: 150px;
+    background-color: #f50537;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+
+/* --------------- SECTION 1 ENDS------------------------- */
+
+/* --------------- SECTION 2 STARTS------------------------- */
+.section2 {
+    height: auto;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+}
+
+.sec2maintext h1 {
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 50px;
+    color: black;
+}
+
+.sec2maintext h1 span {
+    font-weight: 700;
+}
+
+.sec2maintext p {
+    color: #00000099;
+    font-size: 17px;
+}
+
+.sec2knowmore {
+    width: 180px;
+    height: 48px;
+    background-color: #f50537;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.sec-2img {
+    border-radius: 10px;
+}
+
+/* --------------- SECTION 2 ENDS------------------------- */
+
+
+/* --------------- SECTION 3 STARTS------------------------- */
+
+.section3 {
+    height: auto;
+    width: 100%;
+    padding: 80px 0px 80px 0px;
+}
+
+.sec-3mainhead h1 {
+    color: black;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.sec-3mainhead h1 span {
+    font-weight: 700;
+}
+
+.sec-3card1i a {
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.5s;
+}
+
+.sec-3card1i i {
+    font-size: 50px;
+    color: #f50537;
+    transition: ease-in-out 0.5s;
+}
+
+.sec-3card1 h3 {
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+}
+
+.sec-3card1 p {
+    color: #00000090;
+    font-weight: 700;
+}
+
+.icon1:hover {
+    background-color: #f50537;
+}
+
+.icon1:hover .musicnote {
+    color: white;
+}
+
+/* --------------- SECTION 3 ENDS------------------------- */
+
+/* --------------- SECTION 4 STARTS------------------------- */
+.section4 {
+    height: auto;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+}
+
+.img4card {
+    position: relative;
+    top: -168px;
+}
+
+.img1card img {
+    border-radius: 5px;
+}
+
+.img4card img {
+    border-radius: 5px;
+}
+
+.sec-4maintext h1 {
+    text-transform: capitalize;
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sec-4maintext h1 span {
+    font-weight: 400;
+}
+
+.sec-4maintext h4 {
+    color: black;
+    font-size: 18px;
+}
+
+.viewclasses {
+    height: 45px;
+    width: 170px;
+    background-color: #f50537;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* --------------- SECTION 4 ENDS------------------------- */
+
+
+/* --------------- SECTION 5 STARTS------------------------- */
+.section5 {
+    height: 100vh;
+    width: 100%;
+}
+
+.backimg {
+    height: 80vh;
+    width: 100%;
+    background-image: url(https://p.w3layouts.com/demos_new/template_demo/11-11-2022/musical-liberty-demo_Free/1061998195/web/assets/images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sec-5darkenimg {
+    height: inherit;
+    width: inherit;
+    background-color: #00000070;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconbox {
+    height: 60px;
+    width: 60px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.iconbox i {
+    font-size: 30px;
+    color: #f50537;
+}
+
+/* --------------- SECTION 5 ENDS------------------------- */
+
+
+/* --------------- SECTION 6 STARTS------------------------- */
+.section6 {
+    height: 100vh;
+    width: 100%;
+}
+
+.sec-6mainhead {
+    padding: 40px;
+}
+
+.sec-6mainhead h2 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 45px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.sec-6mainhead h2 span {
+    font-weight: 700;
+}
+
+.sec-6mainhead p {
+    color: #00000099;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.sec-6icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec-6icon a {
+    height: 60px;
+    width: 60px;
+    /* border: 1px solid; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f50537;
+}
+
+.sec-6icon a i {
+    font-size: 30px;
+    color: white;
+}
+
+.subhead h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+
+/* --------------- SECTION 6 ENDS------------------------- */
+
+
+/* --------------- SECTION 7 STARTS------------------------- */
+.section7 {
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+}
+
+.sec-7mainhead h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    text-transform: capitalize;
+}
+
+.sec-7mainhead h1 span {
+    font-weight: 700;
+}
+
+.sec-7mainhead p {
+    color: #00000090;
+    font-weight: 600;
+}
+
+.sec-7search input {
+    /* width: 600px; */
+    position: relative;
+    height: 50px !important;
+    border-radius: 20px;
+    /* height: 35px; */
+}
+
+.sec-7search button {
+    position: absolute;
+    /* top: 0px; */
+    /* bottom: 0px; */
+    right: 0px;
+    height: 50px;
+    width: 150px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #f50537;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* --------------- SECTION 7 ENDS------------------------- */
+
+
+/* --------------- SECTION 8 STARTS------------------------- */
+.section8 {
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+}
+
+.sec-8backimg {
+    height: 40vh;
+    width: 100%;
+    background-image: url(https://p.w3layouts.com/demos_new/template_demo/11-11-2022/musical-liberty-demo_Free/1061998195/web/assets/images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+.sec-8darkimg {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-color: #00000070;
+    border-radius: 20px;
+}
+
+.sec-8darkimg h3 {
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.sec-8darkimg p {
+    color: aliceblue;
+}
+.sec-8contactnow {
+    height: 45px;
+    width: 160px;
+background-color: #f50537;
+border-radius: 20px;
+border: none;
+color: white;
+font-weight: 600;
+text-transform: capitalize;    
+}
+/* --------------- SECTION 8 ENDS------------------------- */
